@@ -1,0 +1,14 @@
+@use 'variables' as v;
+@import 'reset';
+@import 'main-meta';
+@import 'buttons';
+@import 'main-menu';
+
+body {
+    background-color: v.$bg-color;
+    color: v.$white;
+    font-family: v.$font-stack;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 5px v.$bg-color;
+}

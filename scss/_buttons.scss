@@ -1,0 +1,37 @@
+.buttons{
+    display: flex;
+    
+    margin-top: 1.5rem;
+    svg{
+        margin-right: .5rem;
+    }
+    .primary-button{
+        display: flex;
+        align-items: center;
+        padding: .5rem 2rem;
+        background-color: v.$primary-color;
+        border-radius: .5rem;
+        border: none;
+        font-family: v.$font-stack;
+        color: v.$bg-color;
+        font-weight: 700;
+        font-size: 1.1rem;
+        margin-right: 1rem;
+        cursor: pointer;
+    }
+    .secondary-button{
+        display: flex;
+        align-items: center;
+        padding: .5rem 2rem;
+        background: rgba(56, 67, 79, 0.9);
+        border-radius: .5rem;
+        border: none;
+        font-family: v.$font-stack;
+        color: v.$white;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1.1rem;
+        margin-right: 1rem;
+        cursor: pointer;
+    }
+}

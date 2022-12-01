@@ -1,0 +1,30 @@
+.main-menu{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: .9rem;
+    padding: 1.5rem  4rem;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    align-content: center;
+    border: none;
+    img{
+        width: 6rem;
+        margin-right: 1.5rem;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        li{
+            margin-right: 1.5rem;
+        }
+    }
+    .menu-list-side{
+        display: flex;
+        flex-grow: 1;
+        height: 100%;
+        justify-content: flex-end;
+        position: relative;
+    }
+}
