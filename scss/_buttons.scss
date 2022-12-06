@@ -1,6 +1,5 @@
 .buttons{
     display: flex;
-    
     margin-top: 1.5rem;
     svg{
         margin-right: .5rem;
@@ -18,6 +17,9 @@
         font-size: 1.1rem;
         margin-right: 1rem;
         cursor: pointer;
+    }
+    .primary-button:hover{
+        
     }
     .secondary-button{
         display: flex;

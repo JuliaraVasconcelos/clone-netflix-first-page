@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width= , initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -14,27 +14,27 @@
     <header>
         <section class="main-menu">
                 <ul class="menu-list">
-                    <li><img src="assets/img/netflix.png" alt=""> </li>
-                    <li>Inicio</li>
-                    <li>Séries</li>
-                    <li>Filmes</li>
-                    <li>Bombando</li>
-                    <li>Minha Lista</li>
-                    <li>Navegar por idiomas</li>
+                    <a class="menu-item"><img src="assets/img/netflix.png" alt=""> </a>
+                    <a class="menu-item">Inicio</a>
+                    <a class="menu-item">Séries</a>
+                    <a class="menu-item">Filmes</a>
+                    <a class="menu-item">Bombando</a>
+                    <a class="menu-item">Minha Lista</a>
+                    <a class="menu-item">Navegar por idiomas</a>
                 </ul>
                 <ul class="menu-list-side">
-                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                    <a class="menu-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
                         viewBox="0 0 16 16">
                         <path
                             d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                    </svg></li>
-                    <li>Infantil</li>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell"
+                    </svg></a>
+                    <a class="menu-item">Infantil</a>
+                    <a class="menu-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell"
                         viewBox="0 0 16 16">
                         <path
                             d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
-                    </svg></li>
-                    <li>Perfil</li>
+                    </svg></a>
+                    <a class="menu-item">Perfil</a>
                 </ul>
         </section>
         <section class="main-sugestion">
@@ -64,11 +64,105 @@
                 </button>
                 </div>
             </div>
-
         </section>
     </header>
     <main>
-
+        <div class="category">
+            <p class="category__title">Minha lista</p>
+        
+            <div class="wrapper">
+                <section id="section1">
+                    <a href="#section3" class="arrow__btn"></a>
+        
+                    <div class="item -animation -animation">
+                        <img src="./assets/img/cuphead.jpg" alt="Queen Loretta" />
+                    </div>
+        
+                    <div class="item -animation">
+                        <img src="./assets/img/arisu.jpg" alt="As 7 vidas de Lea" />
+                    </div>
+        
+                    <div class="item -animation">
+                        <img src="./assets/img/dark.jpg" alt="The good place" />
+                    </div>
+                    <div class="item -animation">
+                        <img src="./assets/img/arcane.jpg" alt="Young Royals" />
+                    </div>
+                    <div class="item -animation">
+                        <img src="./assets/img/mar tranquilidade.jpg" alt="Dark" />
+                    </div>
+                    <a href="#section2" class="arrow__btn"><i class="fa-solid fa-angle-right"></i></a>
+                </section>
+                <section id="section2">
+                    <a href="#section1" class="arrow__btn"><i class="fa-solid fa-angle-right"></i></a>
+                    <div class="item -animation">
+                        <img src="./assets/img/castlevania.jpg" alt="Bem vindos ao Éden" />
+                    </div>
+                    <div class="item -animation">
+                        <img src="./assets/img/totoro.jpg" alt="UnbreakAble Kimmy Schmidt" />
+                    </div>
+                    <div class="item -animation">
+                        <img src="./assets/img/nausicaa.jpg" alt="Elize Matsunaga - Era uma vez um crime" />
+                    </div>
+                    <div class="item -animation">
+                        <img src="./assets/img/psychopass.jpg" alt="The Ted Bundy Tapes" />
+                    </div>
+                    <div class="item -animation">
+                        <img src="./assets/img/sussurros.jpg" alt="Gabriel Fluffy" />
+                    </div>
+                    
+                    <a href="#section1" class="arrow__btn"><i class="fa-solid fa-angle-right"></i></a>
+                </section>
+            </div>
+        </div>
+        <div class="category">
+            <p class="category__title">Assistir novamente</p>
+        
+            <div class="wrapper">
+                <section id="sectionw1">
+                    <a href="#sectionw3" class="arrow__btn"></a>
+        
+                    <div class="item -animation -animation">
+                        <img src="./assets/img/queereye.jpg" alt="Queen Loretta" />
+                    </div>
+        
+                    <div class="item -animation">
+                        <img src="./assets/img/opm.jpg" alt="As 7 vidas de Lea" />
+                    </div>
+        
+                    <div class="item -animation">
+                        <img src="./assets/img/naruto.jpg" alt="The good place" />
+                    </div>
+                    <div class="item -animation">
+                        <img src="./assets/img/deathnote.jpg" alt="Young Royals" />
+                    </div>
+                    <div class="item -animation">
+                        <img src="./assets/img/sexeducation.jpg" alt="Dark" />
+                    </div>
+                    <a href="#sectionw2" class="arrow__btn"><i class="fa-solid fa-angle-right"></i></a>
+                </section>
+                <section id="sectionw2">
+                    <a href="#sectionw1" class="arrow__btn"><i class="fa-solid fa-angle-right"></i></a>
+                    <div class="item -animation">
+                        <img src="./assets/img/caroleandtuesday.jpg" alt="Bem vindos ao Éden" />
+                    </div>
+                    <div class="item -animation">
+                        <img src="./assets/img/aggretduko.jpg" alt="UnbreakAble Kimmy Schmidt" />
+                    </div>
+                    <div class="item -animation">
+                        <img src="./assets/img/finalspace.jpg" alt="Elize Matsunaga - Era uma vez um crime" />
+                    </div>
+                    <div class="item -animation">
+                        <img src="./assets/img/assasscapa.jpg" alt="The Ted Bundy Tapes" />
+                    </div>
+                    <div class="item -animation">
+                        <img src="./assets/img/cowboybebop.jpg" alt="Gabriel Fluffy" />
+                    </div>
+        
+                    <a href="#sectionw1" class="arrow__btn"><i class="fa-solid fa-angle-right"></i></a>
+                </section>
+            </div>
+        </div>
     </main>
     <footer>
 
