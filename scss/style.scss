@@ -1,9 +1,10 @@
 @use 'variables' as v;
 @import 'reset';
+@import 'main-menu';
 @import 'main-meta';
 @import 'buttons';
-@import 'main-menu';
 @import 'my-list-slider';
+@import 'footer';
 
 body {
     background-color: v.$bg-color;
